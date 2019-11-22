@@ -1,0 +1,422 @@
+html
+h4 {
+    color: #ff6d6d;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    margin-bottom: 15px;
+}
+h5 {
+    color: #282828;
+    font-family: Exo;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+}
+span {
+    color: #ff6d6d;
+    letter-spacing: 1.6px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/photo-1433354359170-23a4ae7338c6.png) no-repeat center/cover;
+}
+header h1 {
+    max-width: 735px;
+    height: 138px;
+    text-align: center;
+    color: #282828;
+    font-family: 'Exo', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 75px;
+    letter-spacing: 2.4px;
+    margin-bottom: 50px;
+}
+header input {
+    width: 59px;
+    height: 59px;
+    background: url(../img/3-layers.png) no-repeat;
+    cursor:pointer;
+    margin-bottom: 50px;
+}
+header a {
+    width: 190px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #ff6d6d;
+    font-family: Exo;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    margin-bottom: 30px;
+}
+header h6 {
+    opacity: 0.6;
+    color: #282828;
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.56px;
+}
+.intro {
+    display: flex;
+    height: 100vh;
+    background: #ececec;
+}
+.text_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    background-color: #ffffff;
+    padding-left: 150px;
+}
+.triangle_1 {
+    width: 30%;
+    background: #ececec;
+    position: relative;
+}
+.triangle_1 img {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+.text_1 h4 {
+    margin: 30px 0 20px 0;
+}
+.text_1 h5 {
+    max-width: 560px;
+}
+.text_1 p {
+    max-width: 665px;
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    margin-top: 30px;
+}
+.awesome {
+    position: relative;
+    text-align: center;
+    background-color: #f6f5f3;
+    padding: 100px 40px;
+    background-image: url("../img/Coffee_Cup.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+}
+.awesome::before {
+    content: url("../img/Pen_holder.png");
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.awesome::after {
+    content: url("../img/Slice_1.png");
+    position: absolute;
+    top: 0;
+    right: 80px;
+    overflow: hidden;
+}
+.awesome ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.awesome ul li {
+    max-width: 420px;
+    margin: 10px 10px;
+}
+.awesome ul li:nth-child(1)::before {
+    content: url("../img/picture.png");
+    display: block;
+}
+.awesome ul li:nth-child(2)::before {
+    content: url("../img/airplane.png");
+    display: block;
+}
+.awesome ul li:nth-child(3)::before {
+    content: url("../img/bulb.png");
+    display: block;
+}
+.awesome ul li h3 {
+    color: #282828;
+    font-family: Exo;
+    font-size: 22px;
+    margin: 30px 0 20px;
+}
+.awesome ul li p {
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo;
+    font-size: 16px;
+    line-height: 25px;
+}
+.mac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    background: url("../img/Rectangle_21_copy_2.png") no-repeat left -950px bottom -870px;
+}
+.mac div {
+    max-width: 630px;
+    max-height: 370px;
+}
+.mac ul {
+    max-width: 500px;
+}
+.mac ul li p {
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    margin-top: 36px;
+}
+.partners {
+    background: url("../img/Group_4.png");
+    padding: 90px 0 110px;
+}
+.partners .clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.partners .clients li {
+    text-align: center;
+    max-width: 430px;
+}
+.partners .clients li h4 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: Exo;
+    font-size: 22px;
+    letter-spacing: 0.88px;
+}
+.partners .clients li h5 {
+    color: #ff6d6d;
+    font-family: Exo;
+    font-size: 16px;
+}
+.partners .clients li p {
+    opacity: 0.66;
+    color: #ffffff;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 26px;
+    margin-top: 30px;
+}
+.partners .clients li h4::before {
+    content: '';
+    display: block;
+    width: 76px;
+    height: 76px;
+    border: 2px solid #1d1e24;
+    background-color: #4e4e5e;
+    margin: 20px auto;
+}
+.partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.partners ul li a {
+    display: block;
+    margin: 5px 5px;
+}
+.browser {
+    height: 100vh;
+    text-align: center;
+    padding: 100px 20px;
+    background: url("../img/1.png") no-repeat bottom center #f6f5f3;
+}
+.browser div p {
+    max-width: 950px;
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    margin: 0 auto;
+}
+.browser div h5 {
+    margin: 20px 0 30px;
+}
+.reg {
+    text-align: center;
+    background-color: #323969;
+    padding: 100px 0;
+}
+.reg h5 {
+    color: #ffffff;
+    font-family: Exo;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    margin-top: 15px;
+}
+.reg form {
+    margin: 114px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.reg form input{
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    opacity: 0.5;
+    width: 260px;
+    line-height: 50px;
+    padding-left: 25px;
+    color: #f6f5f3;
+    font-family: Exo;
+}
+.reg form input::placeholder {
+    color: #f6f5f3;
+    font-family: Exo;
+}
+.try {
+    position: relative;
+}
+.try::before {
+    content: '30 days free trial for all.';
+    position: absolute;
+    top: -60px;
+    left: 30px;
+    color: #f6f5f3;
+    font-family: Exo;
+    font-size: 16px;
+}
+.try::after {
+    content: url("../img/ARROW.png");
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+.try a {
+    display: inline-block;
+    line-height: 48px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+    color: #f6f5f3;
+    font-family: Exo;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 90px;
+}
+.reg p, .reg p a {
+    opacity: 0.6;
+    color: #f6f5f3;
+    font-family: Exo;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+}
+.reg p a {
+    text-decoration: underline;
+}
+footer {
+    padding: 84px;
+    background: url("../img/Slice_2.png") no-repeat right top;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+}
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+}
+footer ul li p {
+    opacity: 0.56;
+    color: #282828;
+    font-family: Exo;
+    font-size: 14px;
+    line-height: 26px;
+}
+.main_link {
+    color: #282828;
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 50px;
+    opacity: unset;
+}
+footer ul li a {
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.logo_ex {
+    opacity: unset;
+}
+.box {
+    display: inline-block;
+    position: relative;
+}
+.box [type=e-mail] {
+    width: 240px;
+    line-height: 50px;
+    border-radius: 3px;
+    border: 1px solid #4e4e5e;
+    padding-left: 10px;
+    color: #000000;
+    font-family: Exo;
+    font-size: 16px;
+}
+.box [type=button] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 52px;
+    height: 51px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background: #ff6d6d url("../img/10.svg") center no-repeat;
+    cursor: pointer;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.social a {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.social a:hover {
+    opacity: unset;
+}

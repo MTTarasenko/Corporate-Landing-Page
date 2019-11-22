@@ -1,0 +1,118 @@
+
+@media screen and (max-width:1280px) {
+    .text_1 {
+        padding: 0 50px;
+    }
+    .mac div {
+        display: none;
+    }
+    .mac ul {
+        background: url("../img/macbook.png") no-repeat center/contain;
+        max-width: 700px;
+        height: 500px;
+        padding: 110px;
+    }
+    .reg form {
+        max-width: 770px;
+    }
+    .reg form input {
+        margin-bottom: 70px;
+    }
+    footer {
+        background-position: 105% 450%;
+    }
+}
+@media screen and (max-width:980px) {
+    header h1 {
+        font-size: 50px;
+    }
+    .text_1 {
+        width: 100%;
+    }
+    .text_1 h5 {
+        font-size: 32px;
+    }
+    .text_1 p {
+        font-size: 14px;
+    }
+    .triangle_1 {
+        display: none;
+    }
+    .awesome {
+        padding-top: 175px;
+    }
+    footer {
+        padding: 40px;
+    }
+    footer ul {
+        justify-content: flex-start;
+    }
+    footer ul li {
+        margin: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    header h1 {
+        max-width: 500px;
+        font-size: 34px;
+    }
+    .text_1 h5 {
+        font-size: 26px;
+    }
+    .awesome {
+        padding-top: 100px;
+    }
+    .awesome::before, .awesome::after {
+        display: none;
+    }
+    .mac ul li h5 {
+        font-size: 23px;
+    }
+    .browser {
+        background-image: none;
+        height: 55vh;
+    }
+    .browser h5 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:600px) {
+    .mac ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mac ul li:last-child {
+        display: none;
+    }
+    .reg form {
+        margin: 114px 20px;
+    }
+}
+@media screen and (max-width:480px) {
+    header h1 {
+        font-size: 28px;
+        margin-bottom: 75px;
+    }
+    .text_1 {
+        justify-content: flex-start;
+        padding: 0px 30px;
+    }
+    .text_1 h5 {
+        line-height: 30px;
+    }
+    .mac {
+        background: none;
+    }
+    .mac ul {
+        background: none;
+        padding: 50px;
+    }
+    .mac ul li:last-child {
+        display: block;
+    }
+    .partners {
+        padding: 0 20px;
+    }
+}
